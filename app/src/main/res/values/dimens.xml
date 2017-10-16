@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- PullToRefresh -->
+  <dimen name="indicator_right_padding">10dp</dimen>
+  <dimen name="indicator_internal_padding">4dp</dimen>
+  <dimen name="header_footer_left_right_padding">8dp</dimen>
+  <dimen name="header_footer_top_bottom_padding">27dp</dimen>
+
+  <!-- 间距 -->
+  <dimen name="margin_smallest">7dp</dimen>
+  <dimen name="margin_small">10dp</dimen>
+  <dimen name="margin_medium">12dp</dimen>
+  <dimen name="margin_primary">13dp</dimen>
+  <dimen name="margin_large">22dp</dimen>
+  <dimen name="margin_xlarge">24dp</dimen>
+  <dimen name="margin_xxlarge">27dp</dimen>
+
+  <dimen name="margin_text_line">3dp</dimen>
+
+  <dimen name="margin_tag">5dp</dimen>
+
+  <!-- 文字大小 -->
+  <!-- XS 20px -->
+  <dimen name="font_size_smallest">10sp</dimen>
+  <!-- S 24px -->
+  <dimen name="font_size_small">12sp</dimen>
+  <!-- M 26px -->
+  <dimen name="font_size_medium">13sp</dimen>
+  <!-- L 28px -->
+  <dimen name="font_size_large">14sp</dimen>
+  <!-- XL 30px -->
+  <dimen name="font_size_xlarge">15sp</dimen>
+  <!-- 特殊文字大小 -->
+  <!-- 36px -->
+  <dimen name="font_size_xxlarge">17sp</dimen>
+
+  <!-- 分割线大小 -->
+  <dimen name="line_size">0.5dp</dimen>
+
+  <dimen name="bar_height">44dip</dimen>
+  <!-- TitleBar -->
+  <dimen name="title_bar_height">@dimen/bar_height</dimen>
+  <dimen name="tab_bar_height">@dimen/bar_height</dimen>
+  <dimen name="category_drawer_group_indicator_width">3dp</dimen>
+  <dimen name="category_drawer_group_indicator_padding">10dp</dimen>
+
+
+  <!-- SlidingMenu -->
+  <dimen name="list_item_height">50dp</dimen>
+  <dimen name="big_btn_width">211dp</dimen>
+  <dimen name="big_btn_height">43dp</dimen>
+  <dimen name="search_bar_height">30dp</dimen>
+  <dimen name="drawer_menu_padding">13dp</dimen>
+
+
+  <!-- 720分辨率下的分割线大小 -->
+  <dimen name="line_size_px">1px</dimen>
+
+  <!-- 地址管理固定间距 -->
+  <dimen name="address_item_height">79dp</dimen>
+  <!-- 购物车地址信息的高度 -->
+
+  <dimen name="shopping_cart_address_height">64dp</dimen>
+
+
+  <dimen name="fragment_home_adv_height">140dp</dimen>
+</resources>

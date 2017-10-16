@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="brand_color">#45ae3c</color>
+    <color name="brand_color_dark">#3b9d33</color>
+
+    <color name="bg_title_bar">#0d91ff</color>
+    <color name="title_bar_title">#646464 </color>
+
+    <color name="title_bar_tab_text_normal">#999999</color>
+    <color name="title_bar_tab_text_selected">#353535</color>
+    <color name="title_bar_tab_bg">#FBDB00</color>
+
+    <color name="tab_bottom_shadow">#dadada</color>
+
+    <color name="bg_color_home">#222222</color>
+    <color name="app_bg_color">#f3f4f6</color>
+
+    <color name="bg_color_divider">#c8c8c8</color>
+
+    <color name="bg_home_title">#202021</color>
+
+    <!-- pager indicator -->
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+    <!-- *********字体颜色定义********** -->
+    <!-- 强调色 -->
+    <color name="font_color_brand">#45ae3c</color>
+    <!-- 正文 -->
+    <color name="font_color_primary">#33414e</color>
+    <!-- 辅助文本色 -->
+    <color name="font_color_secondary">#6d7b95</color>
+    <!-- 警示色 -->
+    <color name="font_color_alert">#ff7800</color>
+    <!-- 注释文本 -->
+    <color name="font_color_hint">#707884</color>
+    <!-- 白色 -->
+    <color name="font_color_white">#ffffff</color>
+    <!-- 蓝文本色 -->
+    <color name="font_color_blue">#6c8aac</color>
+    <!-- 深蓝-->
+    <color name="font_color_blue_dark">#29297f</color>
+    <!-- 紫色文本 -->
+    <color name="font_color_purple">#9874ff</color>
+    <!-- 深灰色 -->
+    <color name="font_color_dark_gray">#666666</color>
+    <!--浅灰色-->
+    <color name="font_color_light_gray">#737474</color>
+    <!-- 黄色 -->
+    <color name="font_color_yellow">#f4e70e</color>
+    <!-- 红色 -->
+    <color name="font_color_red">#f9999a</color>
+    <!-- 深红 -->
+    <color name="font_color_red_dark">#ff4343</color>
+    <!-- 棕色 -->
+    <color name="font_color_brown">#7c493b</color>
+    <!-- 间隔色 -->
+    <color name="font_color_space">#DEE2E3</color>
+
+    <color name="font_color_red_tab_bar">#eb4f38</color>
+</resources>

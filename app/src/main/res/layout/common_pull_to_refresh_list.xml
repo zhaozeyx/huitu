@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/bg_title_bar"
+        app:navigationIcon="@mipmap/icon_arrow_left"
+        app:titleTextColor="@android:color/white"
+        />
+    <com.demon.huitu.ui.basic.pulltorefresh.PullToRefreshListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+  </LinearLayout>
+
+  <FrameLayout
+      android:id="@+id/empty_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"
+      />
+
+  <ProgressBar
+      android:id="@+id/progressBar"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      style="@style/Base.Widget.AppCompat.ProgressBar"
+      android:layout_gravity="center"
+      />
+
+</FrameLayout>

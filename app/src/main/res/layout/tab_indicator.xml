@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <View
+      android:id="@+id/bottom_shadow"
+      android:layout_width="match_parent"
+      android:layout_height="0.5dip"
+      android:layout_alignParentTop="true"
+      android:background="@color/tab_bottom_shadow"
+      android:visibility="visible"
+      />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="48dip"
+      android:layout_below="@id/bottom_shadow"
+      android:paddingBottom="2dp"
+      android:paddingTop="2dp"
+      >
+
+    <TextView
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/tab_text_selector"
+        android:textSize="@dimen/font_size_small"
+        tools:ignore="ContentDescription"
+        tools:text="首页"
+        />
+
+    <TextView
+        android:id="@+id/tab_unread_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="3dip"
+        android:gravity="center"
+        android:textColor="@color/font_color_white"
+        android:textSize="@dimen/font_size_small"
+        >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/tab_new_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tab_title"
+        android:layout_alignTop="@id/tab_title"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:textColor="@color/font_color_white"
+        android:textSize="@dimen/font_size_small"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"
+        >
+    </ImageView>
+
+    <View
+        android:id="@+id/tab_divider"
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+  </RelativeLayout>
+
+</RelativeLayout>
